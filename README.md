@@ -14,3 +14,10 @@ This is a basic way to build a paint desktop application like ms paint
 * Select the repository
 * Double click on the solution name
 * Press play
+
+# Preview
+* Basic options and a blank panel
+![Lienzo](img/demo1.png)
+#
+* Basic traces on the panel 
+![Draws](img/demo2.png)
