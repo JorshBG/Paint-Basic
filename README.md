@@ -21,3 +21,7 @@ This is a basic way to build a paint desktop application like ms paint
 #
 * Basic traces on the panel 
 ![Draws](img/demo2.png)
+
+
+### Credits to
+[Rohit Programming Zone](https://www.youtube.com/watch?v=m7Ohm52TIhw)
