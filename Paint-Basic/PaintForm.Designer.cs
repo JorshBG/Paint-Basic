@@ -112,7 +112,7 @@
             this.btn_import.TabIndex = 10;
             this.btn_import.Text = "Importar";
             this.btn_import.UseVisualStyleBackColor = false;
-            this.btn_import.Click += new System.EventHandler(this.button2_Click);
+            this.btn_import.Click += new System.EventHandler(this.btn_import_Click);
             // 
             // btn_save
             // 
@@ -129,7 +129,7 @@
             this.btn_save.TabIndex = 8;
             this.btn_save.Text = "Guardar";
             this.btn_save.UseVisualStyleBackColor = false;
-            this.btn_save.Click += new System.EventHandler(this.button1_Click);
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
             // btn_export
             // 
@@ -148,7 +148,7 @@
             this.btn_export.Text = "Exportar";
             this.btn_export.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_export.UseVisualStyleBackColor = false;
-            this.btn_export.Click += new System.EventHandler(this.btn_save_Click);
+            this.btn_export.Click += new System.EventHandler(this.btn_export_Click);
             // 
             // btn_clear
             // 

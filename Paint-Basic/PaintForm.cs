@@ -141,18 +141,18 @@ namespace Paint_Basic
             }
         }
 
-        private void btn_save_Click(object sender, EventArgs e)
+        private void btn_export_Click(object sender, EventArgs e)
         {
-            SaveFileDialog sf= new SaveFileDialog();
+            SaveFileDialog sf = new SaveFileDialog();
             sf.Filter = "Image(*.jpg)|*.jpg|(*.*|*.*";
-            if(sf.ShowDialog(Owner) == DialogResult.OK)
+            if (sf.ShowDialog(Owner) == DialogResult.OK)
             {
-                Bitmap btm = bm.Clone(new Rectangle(0,0,pic.Width,pic.Height), bm.PixelFormat);
+                Bitmap btm = bm.Clone(new Rectangle(0, 0, pic.Width, pic.Height), bm.PixelFormat);
                 btm.Save(sf.FileName, ImageFormat.Jpeg);
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_save_Click(object sender, EventArgs e)
         {
             Graphics g = pic.CreateGraphics();
             Bitmap bmp = new Bitmap(pic.Width, pic.Height);
@@ -166,15 +166,14 @@ namespace Paint_Basic
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_import_Click(object sender, EventArgs e)
         {
             OpenFileDialog of = new OpenFileDialog();
-            if(of.ShowDialog(Owner) == DialogResult.OK)
+            if (of.ShowDialog(Owner) == DialogResult.OK)
             {
                 Image img = Image.FromFile(of.FileName);
                 g.DrawImage(img, new Point(0, 0));
             }
-            
         }
 
         private void btn_pencil_Click(object sender, EventArgs e)
