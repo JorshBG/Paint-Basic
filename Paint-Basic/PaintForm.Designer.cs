@@ -59,8 +59,9 @@
             this.pnl_header.Controls.Add(this.pic_color);
             this.pnl_header.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_header.Location = new System.Drawing.Point(0, 0);
+            this.pnl_header.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_header.Name = "pnl_header";
-            this.pnl_header.Size = new System.Drawing.Size(847, 78);
+            this.pnl_header.Size = new System.Drawing.Size(968, 104);
             this.pnl_header.TabIndex = 2;
             // 
             // color_picker
@@ -68,8 +69,9 @@
             this.color_picker.Cursor = System.Windows.Forms.Cursors.Hand;
             this.color_picker.Image = global::Paint_Basic.Properties.Resources.color_palette;
             this.color_picker.Location = new System.Drawing.Point(0, 0);
+            this.color_picker.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.color_picker.Name = "color_picker";
-            this.color_picker.Size = new System.Drawing.Size(190, 78);
+            this.color_picker.Size = new System.Drawing.Size(224, 104);
             this.color_picker.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.color_picker.TabIndex = 9;
             this.color_picker.TabStop = false;
@@ -89,9 +91,10 @@
             this.panel3.Controls.Add(this.btn_circle);
             this.panel3.Controls.Add(this.btn_pencil);
             this.panel3.Controls.Add(this.btn_eraser);
-            this.panel3.Location = new System.Drawing.Point(234, 7);
+            this.panel3.Location = new System.Drawing.Point(267, 9);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(572, 65);
+            this.panel3.Size = new System.Drawing.Size(689, 87);
             this.panel3.TabIndex = 8;
             // 
             // btn_import
@@ -102,9 +105,10 @@
             this.btn_import.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btn_import.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_import.ForeColor = System.Drawing.Color.White;
-            this.btn_import.Location = new System.Drawing.Point(503, 35);
+            this.btn_import.Location = new System.Drawing.Point(599, 47);
+            this.btn_import.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_import.Name = "btn_import";
-            this.btn_import.Size = new System.Drawing.Size(63, 24);
+            this.btn_import.Size = new System.Drawing.Size(87, 32);
             this.btn_import.TabIndex = 10;
             this.btn_import.Text = "Importar";
             this.btn_import.UseVisualStyleBackColor = false;
@@ -118,9 +122,10 @@
             this.btn_save.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_save.ForeColor = System.Drawing.Color.White;
-            this.btn_save.Location = new System.Drawing.Point(437, 6);
+            this.btn_save.Location = new System.Drawing.Point(518, 9);
+            this.btn_save.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(60, 24);
+            this.btn_save.Size = new System.Drawing.Size(75, 32);
             this.btn_save.TabIndex = 8;
             this.btn_save.Text = "Guardar";
             this.btn_save.UseVisualStyleBackColor = false;
@@ -135,9 +140,10 @@
             this.btn_export.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_export.ForeColor = System.Drawing.Color.White;
             this.btn_export.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.btn_export.Location = new System.Drawing.Point(503, 6);
+            this.btn_export.Location = new System.Drawing.Point(599, 8);
+            this.btn_export.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_export.Name = "btn_export";
-            this.btn_export.Size = new System.Drawing.Size(63, 24);
+            this.btn_export.Size = new System.Drawing.Size(87, 32);
             this.btn_export.TabIndex = 9;
             this.btn_export.Text = "Exportar";
             this.btn_export.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -153,9 +159,10 @@
             this.btn_clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_clear.ForeColor = System.Drawing.Color.White;
             this.btn_clear.ImageAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.btn_clear.Location = new System.Drawing.Point(437, 35);
+            this.btn_clear.Location = new System.Drawing.Point(518, 47);
+            this.btn_clear.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_clear.Name = "btn_clear";
-            this.btn_clear.Size = new System.Drawing.Size(60, 24);
+            this.btn_clear.Size = new System.Drawing.Size(75, 32);
             this.btn_clear.TabIndex = 8;
             this.btn_clear.Text = "Limpiar";
             this.btn_clear.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -172,9 +179,10 @@
             this.btn_line.ForeColor = System.Drawing.Color.White;
             this.btn_line.Image = global::Paint_Basic.Properties.Resources.line;
             this.btn_line.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_line.Location = new System.Drawing.Point(378, 3);
+            this.btn_line.Location = new System.Drawing.Point(442, 4);
+            this.btn_line.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_line.Name = "btn_line";
-            this.btn_line.Size = new System.Drawing.Size(53, 57);
+            this.btn_line.Size = new System.Drawing.Size(61, 76);
             this.btn_line.TabIndex = 7;
             this.btn_line.Text = "Línea";
             this.btn_line.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -191,9 +199,10 @@
             this.btn_color.ForeColor = System.Drawing.Color.White;
             this.btn_color.Image = global::Paint_Basic.Properties.Resources.color;
             this.btn_color.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_color.Location = new System.Drawing.Point(3, 3);
+            this.btn_color.Location = new System.Drawing.Point(3, 4);
+            this.btn_color.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_color.Name = "btn_color";
-            this.btn_color.Size = new System.Drawing.Size(53, 57);
+            this.btn_color.Size = new System.Drawing.Size(61, 76);
             this.btn_color.TabIndex = 1;
             this.btn_color.Text = "Color";
             this.btn_color.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -210,9 +219,10 @@
             this.btn_square.ForeColor = System.Drawing.Color.White;
             this.btn_square.Image = global::Paint_Basic.Properties.Resources.rectangle;
             this.btn_square.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_square.Location = new System.Drawing.Point(303, 3);
+            this.btn_square.Location = new System.Drawing.Point(346, 4);
+            this.btn_square.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_square.Name = "btn_square";
-            this.btn_square.Size = new System.Drawing.Size(69, 57);
+            this.btn_square.Size = new System.Drawing.Size(90, 76);
             this.btn_square.TabIndex = 6;
             this.btn_square.Text = "Cuadrado";
             this.btn_square.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -229,9 +239,10 @@
             this.btn_fill.ForeColor = System.Drawing.Color.White;
             this.btn_fill.Image = global::Paint_Basic.Properties.Resources.bucket;
             this.btn_fill.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_fill.Location = new System.Drawing.Point(62, 3);
+            this.btn_fill.Location = new System.Drawing.Point(71, 4);
+            this.btn_fill.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_fill.Name = "btn_fill";
-            this.btn_fill.Size = new System.Drawing.Size(53, 57);
+            this.btn_fill.Size = new System.Drawing.Size(61, 76);
             this.btn_fill.TabIndex = 2;
             this.btn_fill.Text = "Llenar";
             this.btn_fill.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -248,9 +259,10 @@
             this.btn_circle.ForeColor = System.Drawing.Color.White;
             this.btn_circle.Image = global::Paint_Basic.Properties.Resources.circle;
             this.btn_circle.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_circle.Location = new System.Drawing.Point(239, 3);
+            this.btn_circle.Location = new System.Drawing.Point(273, 4);
+            this.btn_circle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_circle.Name = "btn_circle";
-            this.btn_circle.Size = new System.Drawing.Size(58, 57);
+            this.btn_circle.Size = new System.Drawing.Size(66, 76);
             this.btn_circle.TabIndex = 5;
             this.btn_circle.Text = "Círculo";
             this.btn_circle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -267,9 +279,10 @@
             this.btn_pencil.ForeColor = System.Drawing.Color.White;
             this.btn_pencil.Image = global::Paint_Basic.Properties.Resources.pencil;
             this.btn_pencil.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btn_pencil.Location = new System.Drawing.Point(121, 3);
+            this.btn_pencil.Location = new System.Drawing.Point(138, 4);
+            this.btn_pencil.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_pencil.Name = "btn_pencil";
-            this.btn_pencil.Size = new System.Drawing.Size(53, 57);
+            this.btn_pencil.Size = new System.Drawing.Size(61, 76);
             this.btn_pencil.TabIndex = 3;
             this.btn_pencil.Text = "Lápiz";
             this.btn_pencil.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -286,9 +299,10 @@
             this.btn_eraser.ForeColor = System.Drawing.Color.White;
             this.btn_eraser.Image = global::Paint_Basic.Properties.Resources.eraser;
             this.btn_eraser.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_eraser.Location = new System.Drawing.Point(180, 3);
+            this.btn_eraser.Location = new System.Drawing.Point(206, 4);
+            this.btn_eraser.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_eraser.Name = "btn_eraser";
-            this.btn_eraser.Size = new System.Drawing.Size(53, 57);
+            this.btn_eraser.Size = new System.Drawing.Size(61, 76);
             this.btn_eraser.TabIndex = 4;
             this.btn_eraser.Text = "Borrar";
             this.btn_eraser.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -298,9 +312,10 @@
             // pic_color
             // 
             this.pic_color.BackColor = System.Drawing.Color.White;
-            this.pic_color.Location = new System.Drawing.Point(196, 26);
+            this.pic_color.Location = new System.Drawing.Point(230, 35);
+            this.pic_color.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pic_color.Name = "pic_color";
-            this.pic_color.Size = new System.Drawing.Size(27, 28);
+            this.pic_color.Size = new System.Drawing.Size(31, 37);
             this.pic_color.TabIndex = 0;
             this.pic_color.UseVisualStyleBackColor = false;
             // 
@@ -309,8 +324,9 @@
             this.pic.BackColor = System.Drawing.Color.White;
             this.pic.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pic.Location = new System.Drawing.Point(0, 0);
+            this.pic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(847, 450);
+            this.pic.Size = new System.Drawing.Size(968, 600);
             this.pic.TabIndex = 4;
             this.pic.TabStop = false;
             this.pic.Paint += new System.Windows.Forms.PaintEventHandler(this.pic_Paint);
@@ -323,19 +339,21 @@
             // 
             this.pnl_footer.BackColor = System.Drawing.Color.Black;
             this.pnl_footer.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnl_footer.Location = new System.Drawing.Point(0, 423);
+            this.pnl_footer.Location = new System.Drawing.Point(0, 564);
+            this.pnl_footer.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnl_footer.Name = "pnl_footer";
-            this.pnl_footer.Size = new System.Drawing.Size(847, 27);
+            this.pnl_footer.Size = new System.Drawing.Size(968, 36);
             this.pnl_footer.TabIndex = 5;
             // 
             // PaintForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(847, 450);
+            this.ClientSize = new System.Drawing.Size(968, 600);
             this.Controls.Add(this.pnl_footer);
             this.Controls.Add(this.pnl_header);
             this.Controls.Add(this.pic);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "PaintForm";
             this.Text = "PaintForm";
             this.pnl_header.ResumeLayout(false);

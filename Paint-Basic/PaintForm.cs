@@ -16,8 +16,8 @@ namespace Paint_Basic
         public PaintForm()
         {
             InitializeComponent();
-            this.Width = 900;
-            this.Height = 700;
+            this.Width = 986;
+            this.Height = 650;
             bm = new Bitmap(pic.Width, pic.Height);
             g = Graphics.FromImage(bm);
             g.Clear(Color.White);
